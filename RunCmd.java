@@ -20,9 +20,10 @@ public class RunCmd {
             while((line=input.readLine()) != null) {
                 output = output + "\n" + line;
             }
-
+            /*
             int exitVal = pr.waitFor();
-            //System.out.println("Exited with error code "+exitVal);
+            System.out.println("Exited with error code "+exitVal);
+            */
 
         } catch(Exception e) {
             System.out.println(e.toString());
